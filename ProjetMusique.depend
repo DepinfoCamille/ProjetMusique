@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1446667744 source:d:\projetmusique\projetmusique\main.cpp
+	<iostream>
+
+1511710012 source:d:\projetmusique\projetmusique\src\partition.cpp
+	"Partition.h"
+
+1511710010 d:\projetmusique\projetmusique\include\partition.h
+	<vector>
+
+1511711386 source:d:\projetmusique\projetmusique\src\main.cpp
+	"Partition.h"
+	"Clavier.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1511710456 d:\projetmusique\projetmusique\include\clavier.h
+
