@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1512486338 source:d:\projetmusique\projetmusique\src\main.cpp
+	"Partition.h"
+	"Clavier.h"
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<iostream>
+	<time.h>
+
+1512486297 d:\projetmusique\projetmusique\include\partition.h
+	<vector>
+	<unordered_map>
+
+1511710456 d:\projetmusique\projetmusique\include\clavier.h
+
+1512488289 source:d:\projetmusique\projetmusique\src\partition.cpp
+	"Partition.h"
+	<iostream>
+	<time.h>
+	<conio.h>
+
+1512486356 source:d:\projetmusique\projetmusique\src\testdiccionnaire.cpp
+	<iostream>
+	"Partition.h"
+	<string>
+	<unordered_map>
+
