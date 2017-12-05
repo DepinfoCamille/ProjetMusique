@@ -1,5 +1,7 @@
 #pragma once
 #include <vector>
+#include <unordered_map>
+
 using std::vector ;
 
 /* Cette classe transforme la lecture clavier de l'utilisateur en partition
@@ -13,8 +15,12 @@ class Partition
         Partition();
         void ajoutNote(char c,int t) ;
         virtual ~Partition();
+
+        std::unordered_map<char,std::tuple<std::string,int>> dicco_notes ;
+
         int lectureClavier() ;  // quand lectureClavier renvoie un 1, cela signifie que l'utilisateur a tapé '\n'
                                 // c'est la fin de la partition
+
 
 
     protected:

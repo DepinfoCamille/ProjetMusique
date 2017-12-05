@@ -14,7 +14,6 @@ char caractere ;
 
 int main(){
 
-    /*Création de la partition*/
     Partition partition  ;
 
     /* lecture clavier*/
@@ -22,4 +21,9 @@ int main(){
         partition.lectureClavier() ;
     }
 
+    //test diccionnaire
+  //  testdicco();
+    //return 0;
 }
+
+//
