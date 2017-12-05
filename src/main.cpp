@@ -1,27 +1,25 @@
 #include "Partition.h"
 #include "Clavier.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <conio.h>
 #include <iostream>
+#include <time.h>
+
 
 char saisie[2048];
+char caractere ;
 
-void lectureClavier()
-{
-    if(!fgets(saisie,sizeof(saisie)-1,stdin))
-    {
-        std::cout<<std::endl ;
-        exit(0);
-    }
-
-
-}
 
 int main(){
 
+    /*Création de la partition*/
+    Partition partition  ;
+
+    /* lecture clavier*/
     while(1){
-        lectureClavier() ;
+        partition.lectureClavier() ;
     }
 
 }
