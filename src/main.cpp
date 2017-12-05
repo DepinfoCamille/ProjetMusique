@@ -1,5 +1,6 @@
 #include "Partition.h"
 #include "Clavier.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <conio.h>
@@ -18,10 +19,15 @@ void lectureClavier()
 
 }
 
-int main(){
-
+/*int main(){
+    /* test lecture clavier
     while(1){
         lectureClavier() ;
     }
+    */
+    //test diccionnaire
+  //  testdicco();
+    //return 0;
 
-}
+
+//
