@@ -17,3 +17,29 @@
 
 1511710456 d:\projetmusique\projetmusique\include\clavier.h
 
+1512480927 source:c:\users\user\desktop\projetcdéfinitif\projetmusique\src\main.cpp
+	"Partition.h"
+	"Clavier.h"
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<iostream>
+
+1512482718 c:\users\user\desktop\projetcdéfinitif\projetmusique\include\partition.h
+	<vector>
+	<unordered_map>
+
+1512478213 c:\users\user\desktop\projetcdéfinitif\projetmusique\include\clavier.h
+
+1512482330 source:c:\users\user\desktop\projetcdéfinitif\projetmusique\src\partition.cpp
+	"Partition.h"
+
+1512481108 source:c:\users\user\desktop\projetcdéfinitif\projetmusique\src\testdiccionnaire.cpp
+	<iostream>
+	"Partition-Diccionnaire.h"
+	<string>
+	<unordered_map>
+
+1512481288 c:\users\user\desktop\projetcdéfinitif\projetmusique\include\partition-diccionnaire.h
+	<unordered_map>
+

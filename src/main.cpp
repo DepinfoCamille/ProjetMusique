@@ -5,29 +5,25 @@
 #include <stdio.h>
 #include <conio.h>
 #include <iostream>
+#include <time.h>
+
 
 char saisie[2048];
-
-void lectureClavier()
-{
-    if(!fgets(saisie,sizeof(saisie)-1,stdin))
-    {
-        std::cout<<std::endl ;
-        exit(0);
-    }
+char caractere ;
 
 
-}
+int main(){
 
-/*int main(){
-    /* test lecture clavier
+    Partition partition  ;
+
+    /* lecture clavier*/
     while(1){
-        lectureClavier() ;
+        partition.lectureClavier() ;
     }
-    */
+
     //test diccionnaire
   //  testdicco();
     //return 0;
-
+}
 
 //
