@@ -2,18 +2,29 @@
 1446667744 source:d:\projetmusique\projetmusique\main.cpp
 	<iostream>
 
-1511710012 source:d:\projetmusique\projetmusique\src\partition.cpp
+1512481739 source:d:\projetmusique\projetmusique\src\partition.cpp
 	"Partition.h"
+	<iostream>
+	<time.h>
+	<conio.h>
 
-1511710010 d:\projetmusique\projetmusique\include\partition.h
+1512483956 d:\projetmusique\projetmusique\include\partition.h
 	<vector>
 
-1511711386 source:d:\projetmusique\projetmusique\src\main.cpp
+1512481294 source:d:\projetmusique\projetmusique\src\main.cpp
 	"Partition.h"
 	"Clavier.h"
 	<stdlib.h>
 	<stdio.h>
+	<conio.h>
 	<iostream>
+	<time.h>
 
 1511710456 d:\projetmusique\projetmusique\include\clavier.h
+
+1512481753 source:d:\projetmusique\projetmusique\src\testdiccionnaire.cpp
+	<iostream>
+	"Partition.h"
+	<string>
+	<unordered_map>
 

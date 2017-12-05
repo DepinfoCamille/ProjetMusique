@@ -5,7 +5,8 @@
 
 
 Partition::Partition(){
-//    listeNotes = new vector<char>() ;
+    this->listeNotes = new std::vector<char*>() ;
+    this->listeTemps = new std::vector<int>() ;
 }
 
 /* cette fonction ajoute une note qui dure t ms à la partition */

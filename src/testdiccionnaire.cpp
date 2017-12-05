@@ -3,7 +3,7 @@
 #include "Partition.h"
 #include <string>
 #include <unordered_map>
-
+/*
 int main() {
 	// Initialize an unordered_map through initializer_list
 
@@ -28,3 +28,4 @@ int main() {
 
 	return 0;
 }
+*/

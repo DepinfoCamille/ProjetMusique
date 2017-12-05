@@ -2,9 +2,11 @@
 #include <vector>
 using std::vector ;
 
-
-
-
+/* Cette classe transforme la lecture clavier de l'utilisateur en partition
+ * les attributs de la classe sont :
+ * listeNotes : contient les notes jouées par l'utilisateur
+ * listeTemps : contient le temps qu'est jouée cette note
+ */
 class Partition
 {
     public:
@@ -18,8 +20,8 @@ class Partition
     protected:
 
     private:
-        vector<char> listeClavier ; // stocke toutes les notes tapées au clavier sous forme de caractères 'q', 's'...
-        vector<char*> listeNotes ; // stocke toutes les notes tapées au clavier sous forme de notes "DO", "RE"...
-        vector<int> listeTemps ; // stocke le temps que cette note est jouée
+        std::vector<char> listeClavier ; // stocke toutes les notes tapées au clavier sous forme de caractères 'q', 's'...
+        std::vector<char*> listeNotes ; // stocke toutes les notes tapées au clavier sous forme de notes "DO", "RE"...
+        std::vector<int> listeTemps ; // stocke le temps que cette note est jouée
 
 };
